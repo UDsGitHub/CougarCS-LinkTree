@@ -1,0 +1,5 @@
+--> Need to ask Nykolas about the specifics of what we're getting from the API
+    specifically, on the images and the descriptions.
+--> Before asking Nykolas, I need to test out the link/button stuff with like
+    example stuff.
+--> Need to set up carousel thing in socialLinks component
