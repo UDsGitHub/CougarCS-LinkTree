@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import logo from "./images/cougarcslogo.png";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <body className="App-body">
+      <header className="App-header">
+        <img src={logo} alt="" className="header_logo" />
+      </header>
+      <div className="grid_container">
+        <section className="important_links">
+          <h1>Important Links</h1>
+        </section>
+        <section className="social_links">
+          <h1>Connect With Us</h1>
+        </section>
+      </div>
+    </body>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
