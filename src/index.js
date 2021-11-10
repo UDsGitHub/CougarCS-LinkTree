@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import logo from "./images/cougarcslogo.png";
+import logo from "../public/images/cougarcslogo.png";
+import SocialLinks from './SocialLinks';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
         </section>
         <section className="social_links">
           <h1>Connect With Us</h1>
+          <SocialLinks/>
         </section>
       </div>
     </body>

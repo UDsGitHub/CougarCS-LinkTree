@@ -1,17 +1,16 @@
-import React, {useState} from "react";
-import data from "./data";
-import socialLink from "./socialLink";
+import React, { useState } from "react";
+import { links } from "./data";
+import SocialLink from "./SocialLink";
 
-const socialLinks = () => {
-    const[links, setLinks] = useState(data);
-    return (
-      <>
-        {links.map((link) => {
-          return (
-              <socialLink {...link}/>
-          )})}
-      </>
-    );
-}
+const SocialLinks = () => {
+  const [slinks, setLinks] = useState(links);
+  return (
+    <>
+      {slinks.map((link) => {
+        return <SocialLink {...link} className="social_link" />;
+      })}
+    </>
+  );
+};
 
-export default socialLinks;
+export default SocialLinks;
