@@ -22,13 +22,13 @@
   align-items: center;
 }
 
-.header_logo{
+.header-logo{
   width: auto;
   height: 100%;
   filter: grayscale(100%) contrast(0%) brightness(200%);
 }
 
-.grid_container{
+.grid-container{
   height: 80vh;
   display: grid;
   grid-template-rows: 1fr 1fr;
