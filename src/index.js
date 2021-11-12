@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import logo from "./images/cougarcslogo.png";
-import SocialLinks from './components/LinkButtonLayout/SocialLinks';
+import SocialLinksContainer from "./components/SocialLinks/SocialLinksContainer/SocialLinksContainer";
+import CarouselLinkContainer from './components/ImportantLinksCarousel/CarouselLinkContainer/CarouselLinkContainer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,10 +14,11 @@ ReactDOM.render(
       <div className="grid-container">
         <section className="important-links">
           <h1>Important Links</h1>
+          <CarouselLinkContainer />
         </section>
         <section className="social-links">
           <h1>Connect With Us</h1>
-          <SocialLinks/>
+          <SocialLinksContainer />
         </section>
       </div>
     </body>

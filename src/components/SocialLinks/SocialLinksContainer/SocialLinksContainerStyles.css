@@ -4,8 +4,9 @@
 
 .link-container{
     margin-top: 2rem;
-    width: 50%;
+    width: 40vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }

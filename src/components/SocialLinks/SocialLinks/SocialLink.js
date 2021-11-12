@@ -1,5 +1,5 @@
-import { render } from "@testing-library/react";
-import React, { Component, useState } from "react";
+// import { render } from "@testing-library/react";
+import React, { useState } from "react";
 import "./SocialLinkButtonStyles.css";
 
 
@@ -25,7 +25,6 @@ const SocialLink = (props) => {
   }
 
   return (
-    <>
       <div className="link-btn">
         <a href={link} target="_blank" className="btn" onMouseEnter={showDesc} onMouseLeave={hideDesc}>
           <img src={image} alt={desc} />
@@ -34,7 +33,6 @@ const SocialLink = (props) => {
           <p>{desc}</p>
         </div>
       </div>
-    </>
   );
 };
 
